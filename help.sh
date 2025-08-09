@@ -2,7 +2,7 @@
 
 # ==========================
 #    Ferramenta Fr13nd5
-#    By: K1r4_Fr13nd5 & 4NUB15_Fr13nd5
+#    By: K1r4_Fr13nd5 & 4NUB15_Fr13nd5 & voidh7
 # ==========================
 
 # ====== Cores ======
@@ -226,6 +226,10 @@ mostrar_comandos_termux_basico() {
    echo -e "${green}cp -r <dir1> <dir2>${reset} → Copia diretórios recursivamente."
    echo -e "${green}clear${reset}       → Limpa a tela do terminal."
    echo -e "${green}exit${reset}        → Encerra o Termux."
+   echo -e "${green}kil <process>${reset} enterra um processo"
+   echo -e "${green}du -h <file> ${reset} mostra o tamanho de um arquivo"
+   echo -e "${green}zip -r <pasta.zip> ~/${reset} compacta uma pasta eem zip  "
+   echo -e "${green}unzip <file.zip> ./pasta ${reset} extrai um arquivo zip"
 
    echo -e "\n${cyan}● DICAS FR13ND5:${reset}"
    echo -e "${green}- Use ${bold}<TAB>${reset}${green} para completar comandos e nomes de arquivos automaticamente.${reset}"
@@ -328,7 +332,7 @@ mostrar_comandos_termux_automacao() {
     echo -e "   for site in site1.com site2.com; do host \$site; done"
     echo
 
-    echo -e "${green}sleep <segundos>${reset} → Pausa entre comandos (útil em loops e testes)."
+    echo -e "${green}sleep <segundos>${reset} → Pausa entre comandos (útil em loops e testes)."u
     echo -e "${white}Exemplo:${reset} sleep 10"
     echo
 
@@ -2115,7 +2119,7 @@ menu_sobre() {
     echo
     echo -e "${cyan}┌────────────────────────────────────────────────────────────┐${reset}"
     echo -e "${cyan}│   Desenvolvido por:                                        │${reset}"
-    echo -e "${cyan}│   ${white}K1r4_Fr13nd5 </> & 4NUB15_Fr13nd5${cyan}         │${reset}"
+    echo -e "${cyan}│   ${white}K1r4_Fr13nd5 </> & 4NUB15_Fr13nd5${cyan}   ${green} & voidh7       │${reset}"
     echo -e "${cyan}└────────────────────────────────────────────────────────────┘${reset}"
     echo
     read -p $'\e[32m[ENTER] Voltar ao menu...\e[0m'
